@@ -3,7 +3,7 @@ for(var i;i<numberOfButtons;i++){
     document.querySelectorAll(".drumsets")[i].addEventListener("click",function(){
 
     
-        var buttonInnerHtml=this.innerHtml;
+        var buttonInnerHtml=this.innerHTML;
         MakeSound(buttonInnerHtml)
        
     })
